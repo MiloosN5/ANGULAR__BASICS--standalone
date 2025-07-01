@@ -1,18 +1,52 @@
-# ANGULARBASICS
+# ANGULAR__BASICS (Standalone)
+
+Demonstration of various examples related to different topics/areas in Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.0.
 
-## Development server
+## Working locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Prerequisites
 
-## Code scaffolding
+    Make sure you have the following installed:
+    - Node.js (v16 or newer recommended)
+    - Angular CLI (version 15 or newer)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    ```bash
+    npm install -g @angular/cli
+    ```
 
-## Build
+    To see more details, visit this link: [Installation](https://angular.dev/installation)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Clone the repository
+
+   ```bash
+   git clone https://github.com/MiloosN5/ANGULAR__BASICS--standalone.git
+   cd ANGULAR__BASICS--standalone
+   ```
+
+3. Install dependencies
+
+    ```bash
+    npm install
+    ```
+    
+4. Running the App (Development server)
+
+    To start the development server:
+
+    ```bash
+    ng serve
+    ```
+    Then open your browser and go to:
+
+    ```bash
+    http://localhost:4200
+    ```
+
+    The app will automatically reload if you make any changes to the source files.
+
+
 
 ## Running unit tests
 
