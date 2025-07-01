@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ANGULAR__BASICS": {
+    "ANGULAR__BASICS--standalone": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ANGULAR__BASICS:build:production"
+              "buildTarget": "ANGULAR__BASICS--standalone:build:production"
             },
             "development": {
-              "buildTarget": "ANGULAR__BASICS:build:development"
+              "buildTarget": "ANGULAR__BASICS--standalone:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ANGULAR__BASICS:build"
+            "buildTarget": "ANGULAR__BASICS--standalone:build"
           }
         },
         "test": {
